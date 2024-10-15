@@ -8,6 +8,7 @@ Get-Process -Name spotify -Module <-- muestra todos los modulos (dll y bibliotec
 Get-Process -Name Spotify -IncludeUserName <-- muestra el nombre del usuario (mode admin)
 
 Get-Help Get-service -Parameter * 
+
 Get-Service -Name SysMain, Themes <-- filtrado por nombre o nombres 
 Get-Service -ComputerName server123 <--- obtiene los servicios en un pc remota
 Get-Service -Name WSearch -DependentServices <-- muestra los servicios que dependen del servicio especificado (WSearch)
