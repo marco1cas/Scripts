@@ -1,5 +1,4 @@
-﻿<# 
-Formato, Alias, Proveedores, Comparacion 
+﻿Formato, Alias, Proveedores, Comparacion 
 
 -Formato (formatear) la salida para obtener una presentacion mas legible
 
@@ -36,7 +35,6 @@ dir HKCU:\\Software <-- Explora el registro de Windows
 10 -gt 9 (Mayor que)
 2 -lt 10 (Menor que)
 'Powershell' -like 'Power*' (Coincidencia con comodines)
-#>
 
 
 
