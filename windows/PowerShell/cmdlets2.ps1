@@ -1,5 +1,5 @@
 # Propiedades y Metodos (Get-Member)
-<#
+
 $proces = Get-Process Notion # obtenemos "Notion" como Objeto
 $proces | Get-Member # Mostramos las propiedades y metodos del objeto
 
@@ -19,8 +19,8 @@ $servicio.DisplayName   # Nombre descriptivo del servicio
 
 $servicio.Start()       # Inicia el servicio
 $servicio.Stop()        # Detiene el servicio
-$servicio.WaitForStatus('Running')  # Espera hasta que el servicio esté en estado "Running"
-$servicio.Refresh()     # Actualiza la información del servicio en el objeto
+$servicio.WaitForStatus('Running')  # Espera hasta que el servicio estÃ© en estado "Running"
+$servicio.Refresh()     # Actualiza la informaciÃ³n del servicio en el objeto
 
 
 (ejemplo procesos)
@@ -28,13 +28,13 @@ $servicio.Refresh()     # Actualiza la información del servicio en el objeto
 
 $proceso1 = Get-Process -Name notepad
 
-$proceso1.Id              # Muestra el ID del proceso, un identificador único
+$proceso1.Id              # Muestra el ID del proceso, un identificador Ãºnico
 $proceso1.ProcessName     # Muestra el nombre del proceso (por ejemplo, "notepad")
-$proceso1.StartTime       # Muestra la hora en la que se inició el proceso
+$proceso1.StartTime       # Muestra la hora en la que se iniciÃ³ el proceso
 
 (metodos)
 
 $proceso1.Kill()             # Termina el proceso inmediatamente
-$proceso1.Refresh()          # Actualiza el objeto del proceso con la información más reciente
+$proceso1.Refresh()          # Actualiza el objeto del proceso con la informaciÃ³n mÃ¡s reciente
 $proceso1.CloseMainWindow()  # Cierra la ventana principal del proceso 
-#>
+
