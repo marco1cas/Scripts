@@ -1,5 +1,4 @@
-﻿<#
-Comandos unicos de una linea y canalizacion
+﻿Comandos unicos de una linea y canalizacion
 
 -Comandos Unicos de una linea son los que se ejecutan directamente en la terminal (get-help, get-process, get-service)
 para saber mas utiliza Get-Command
@@ -27,4 +26,4 @@ Get-Process | Where-Object {$_.CPU -gt 90} | Select-Object Name, CPU <-- filtra 
 Get-Service | Where-Object {$_.Status -eq 'Running'} <-- muestra los servicios que estan en running
 
 
-#> 
+
