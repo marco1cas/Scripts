@@ -107,10 +107,7 @@ Write-Output $hash
 
 
 #Funciones
-
 function Saludar {
     Write-Output "¡Hola, bienvenido!"
 }
-
-
 Saludar
